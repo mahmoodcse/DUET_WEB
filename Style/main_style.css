@@ -61,7 +61,7 @@ nav{
 
 
 }
-marquee{
+.marquee_section marquee{
 
 	position: absolute;
 	top: 185px;
@@ -71,3 +71,77 @@ marquee{
 .marquee_section a{
 	font-size: 30px;
 }
+
+.sectionPart{
+	margin-top: 50px;
+	height: 501px;
+	width: 100%;
+	background: ghostwhite;
+}
+.section1{
+	height: 500px;
+	width: 20%;
+	float: left;
+	background: #4879;
+	border-right: 5px solid whitesmoke;
+}
+.section1 ul{
+	list-style-type: none;
+}
+.section1 ul li{
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.section1 ul li a{
+	color: black;
+
+}
+.section2{
+	height: 500px;
+	width: 40%;
+	float: left;
+	
+	border-right: 5px solid whitesmoke;
+}
+.section2 h2{
+	margin-top: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+.section2 p{
+	color: black;
+	font-size: 18px;
+	text-align: justify;
+
+}
+.section3{
+	height: 500px;
+	width: 38%;
+	float: left;
+}
+
+.section3 img{
+	height: 400px;
+}
+	
+
+/*.left_section{
+	
+	height: 500px;
+	width: 20%;
+	float: left;
+	border-right: 2px solid black;
+}
+.middle_section{
+	
+	margin: 0 auto;
+	height: 500px;
+	width: 50%;
+	background: green;
+}
+.right_section{
+	float: right;
+	height: 500px;
+	width: 10%;
+	background: green;
+}*/
