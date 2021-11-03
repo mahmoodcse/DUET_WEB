@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	border-right: 2px solid rosybrown;
+	border-left: 2px solid rosybrown;
+	padding: 2px;
+}
 header{
 	height: 150px;
 	width: 100%;
@@ -10,29 +15,36 @@ header{
 #header_img{
 	height: 150px;
 	width: 100%;
+	background-repeat: repeat;
 }
 nav{
 	background-color: green;
 	height: 30px;
 	position: static;
 }
-#nav_list{
+.nav_list{
 	list-style-type: none;
 	float: right;
 	margin-right: 30%;
 }
 
-#nav_list li{
+.nav_list li{
 	display: inline-block;
 	margin-left: 25px;
 	padding-top: 8px;
 	
 }
 
-#nav_list li a{
+.nav_list li a{
 	font-size: 17px;
 	color: whitesmoke;
 	text-decoration: none;
+}
+.nav_list li a:hover{
+	background-color: seagreen;
+	font-size: 20px;
+	
+
 }
 
 #notice_left{
@@ -111,6 +123,8 @@ nav{
 .section2 p{
 	color: black;
 	font-size: 18px;
+	padding-right: 4px;
+	padding-left: 4px;
 	text-align: justify;
 
 }
@@ -123,6 +137,40 @@ nav{
 .section3 img{
 	height: 400px;
 }
+
+
+
+
+#news_head{
+	text-align: center;
+}
+
+.news_feed{
+	height: 255px;
+	width: 100%;
+	margin-left: 4%;
+
+	
+	
+}
+
+.notice{
+	height: 250px;
+	width: 30%;
+	float: left;
+	background: #77b300;
+	margin-left: 4px;
+	border: 0px solid white;
+	border-radius: 10px;
+}
+.notice label{
+	margin-left: 2%;
+	font-size: 18px;
+}
+.notice ul{
+	margin-left: 10%
+}
+
 	
 
 /*.left_section{

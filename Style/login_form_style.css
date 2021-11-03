@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.form_block{
+	height: 300px;
+	width: 400px;
+	border: 3px solid orangered;
+	border-radius: 20px ;
+	padding-top: 15%;
+	margin:  auto;
+	background: #29892;
+}
+
+.form_block input{
+	height: 30px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 15px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+#signin_btn{
+	margin-left: 15%;
+	margin-top: 5px;
+	width: 70px;
+	background: green;
+	color: white;
+}
